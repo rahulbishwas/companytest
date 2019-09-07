@@ -1,0 +1,204 @@
+.content{
+    margin-left:2%;
+    margin-top:-480px;
+    background-color:#fff;
+    padding:20px 10px;
+    margin-bottom: 8px;
+    margin-right:10px
+  
+
+  
+}
+.headcontent{
+    margin-left: 5%;
+    display: inline;
+    font-weight: bold;
+
+}
+.icon{
+    float:right;
+    margin-top:10px;
+    margin-right:-180px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+
+.textinput{
+    float:right;
+    margin-right:20px;
+}
+
+input[type=text] {
+    /* width: 100%; */
+    padding: 10px 15px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border:1px solid gray;
+    border-radius: 3px;
+   
+
+  }
+  .button{
+      margin-top:20px;
+      margin-left:5%;
+  }
+
+  .btn{
+      text-decoration: none;
+      color:#fff;
+      padding:5px 25px;
+       border-radius: 3px;
+  }
+
+  .btn-primary{
+      background-color: rgb(153, 90, 155);
+
+  }
+  .btn-primary:hover{
+    background-color: rgb(187, 96, 187);
+
+  }
+
+  .btn-red{
+    background-color: rgb(185, 51, 51);
+    margin-left:8%;
+
+}
+.btn-red:hover{
+  background-color: rgb(175, 92, 92);
+
+}
+
+
+@media screen and (max-width: 885px) {
+    .btn-red {
+        margin-left:0px;
+        display:block;
+        width:119px;
+        margin-top:10px
+    }
+  }
+
+  @media screen and (max-width: 885px) {
+    .select {
+     
+        margin-top:-30px
+    }
+  }
+.select{
+    float:right;
+    margin-right:2%;
+
+}
+select{
+    padding:5px 12px;
+    border-radius: 2px;
+}
+.selectone{
+    margin-right:15px;
+}
+
+.tablediv{
+    margin-top:50px;
+}
+
+
+#thead {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #thead td, #thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size:15px;
+    border-left: 0px none;
+    border-right: 0px none;
+    line-height: 0.87;
+   
+    
+  }
+  
+  
+  #thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:	rgb(229, 235, 235);;
+    color: black;
+  }
+
+
+
+  .container {
+    display:inline;
+    position: relative;
+    cursor: pointer;
+    margin-left:12px;
+    
+  
+    
+   
+  }
+  @media screen and (max-width: 1051px) {
+    .container {
+        margin-left:3px;
+    }
+  }
+  
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+   
+  }
+  
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #ccc;
+    
+  }
+  
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  
+  .container input:checked ~ .checkmark {
+    background-color: 	#228B22;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

@@ -1,0 +1,408 @@
+<div class="content">
+  <div class="headcontent">
+    Delete Account
+    </div>
+    <input type="text"  placeholder="Search"  class="textinput">
+    <i class="fa fa-fw fa-search icon"></i>
+<div class="button">
+ <a  href="#" class="btn btn-primary">Reactive</a>
+ <a  href="#" class="btn btn-red">Deactive</a>
+  </div>
+    <div class="select">
+      <select class="selectone"  (click)="clickfun()">
+         <option>Account Types</option>
+        <option *ngFor="let accountType of accountTypes">
+          {{accountType}}
+        </option> 
+         
+       </select> 
+
+   
+
+     <select  class="selecttwo"  (click)="clickfun()">
+        <option>Account Types</option>
+        <option *ngFor="let accountType of accountTypes">
+            {{accountType}}
+          </option> 
+       </select> 
+      </div> 
+
+     <div  class="tablediv"> 
+        <table id="thead">
+            <tr>
+              <th>All<label class="container">
+                  <input type="checkbox"  (click)="checkedFun()"  >
+                  <span class="checkmark"></span>
+                </label></th>
+              <th>Account Id</th>
+              <th>Account Type</th>
+              <th>Managed By</th>
+              <th>Plateform</th>
+              <th>Account Balance</th>
+              <th>Account Status</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" checked="checked" >
+                        <span class="checkmark"></span>
+                      </label>
+                </td>
+                <td ><span  style="display:block">546324</span>
+                  <span  style="font-size:10px;color:gray">Adolf j Guy</span></td>
+                <td>
+                  <span style="display:block">Individual</span>
+                  <span  style="font-size:10px;color:red">Standard Account</span>
+                </td>
+                <td>
+                    <span style="display:block">546732</span>
+                    <span  style="font-size:10px;color:gray">Bertha M.Queen</span>
+                  </td>
+                  <td>
+                      <span style="font-weight:bold">MT</span>
+                      <span  style="color:red;font-weight:bold">4</span>
+                    </td>
+
+                    <td >
+                   <span> $</span><span style="margin:5px">4,35,4876856</span>
+                    </td>
+                      <td>
+                        <span style="color:red">
+                          Deactivated
+                        </span>
+                      </td>
+              </tr>
+
+              <tr >
+                <td colspan="2">
+                <span style="display:block">Email(Username)</span>
+                <span style="font-size:10px;color:gray">xaihog2018@hotmail.com</span>
+                </td>
+
+                <td>
+                    <span style="display:block">Leverage</span>
+                    <span style="font-size:10px;color:gray">1:100</span>
+                    </td>
+
+                    <td colspan="2">
+                        <span style="display:block">Secret Question</span>
+                        <span style="font-size:10px;color:gray">which country was your mother born in?</span>
+                        </td>
+
+                        <td>
+                            <span >POI 1</span><span style="color:green;font-size:12px">(Approved)</span>
+                            <span style="display:block;font-size:10px;color:gray">Click to download</span>
+                        </td>
+        
+              </tr>
+
+              <tr >
+                  <td colspan="2">
+                  <span style="display:block">Password</span>
+                  <span style="font-size:10px;color:gray">eR1cvrcde</span>
+                  </td>
+  
+                  <td>
+                      <span style="display:block">Base Currency</span>
+                      <span style="font-size:10px;color:gray">USD</span>
+                      </td>
+  
+                      <td colspan="2">
+                          <span style="display:block">Secret Answer</span>
+                          <span style="font-size:10px;color:gray">Singapore</span>
+                          </td>
+  
+                          <td>
+                              <span >POI 1</span><span style="color:green;font-size:12px">(Approved)</span>
+                              <span style="display:block;font-size:10px;color:gray">Click to download</span>
+                          </td>
+                          <td>
+                            </td>
+          
+                </tr>
+
+
+                
+              <tr >
+                  <td colspan="2">
+                  <span style="display:block">Mobile No.</span>
+                  <span style="font-size:10px;color:gray">+1-202-555-0191</span>
+                  </td>
+  
+                  <td>
+                      <span style="display:block">Trading Experience</span>
+                      <span style="font-size:10px;color:gray">Little to none</span>
+                      </td>
+  
+                      <td colspan="2">
+                          <span style="display:block">Account Creation Date</span>
+                          <span style="font-size:10px;color:gray">23/06/2018</span>
+                          </td>
+  
+                          <td>
+                              <span style="display:block">POA </span>
+                              <span style="font-size:10px;color:gray">Not Available</span>
+                            
+                          </td>
+                          <td>
+                            </td>
+          
+                </tr>
+
+                         
+              <tr >
+                  <td colspan="3">
+                  <span style="display:block">Address</span>
+                  <span style="font-size:10px;color:gray">New York,262 Graleline Lane 10016</span>
+                  </td>
+  
+                  <td>
+                      <span style="display:block">Approved Date</span>
+                      <span style="font-size:10px;color:gray">10/07/2018</span>
+                      </td>
+                    <td></td>
+                    <td></td>
+                      
+                          
+          
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                    <span style="display:block">MT4ID</span>
+                    <span style="font-size:10px;color:gray">43243223</span>
+                    </td>
+    
+                    <td >
+                        <span style="display:block">MT4 Password</span>
+                        <span style="font-size:10px;color:gray">p9okfde</span>
+                        </td>
+    
+                        <td colspan="2">
+                            <span style="display:block">MT4 Inverstor Password</span>
+                            <span style="font-size:10px;color:gray">ONsk44ehy</span>
+                            </td>
+    
+                            <td>
+                                <span >POI 1</span><span style="color:green;font-size:12px">Referral Code(IB/MM)</span>
+                                <span style="display:block;font-size:10px;color:gray">Click to download</span>
+                            </td>
+                            <td>
+                              </td>
+            
+                  </tr>
+            
+           
+              <tr style="border-top: 3px solid red">
+                  <td>
+                      <label class="container">
+                          <input type="checkbox">
+                          <span class="checkmark"></span>
+                        </label>
+                  </td>
+                  <td ><span  style="display:block">654897</span>
+                    <span  style="font-size:10px;color:gray">Freedal G.Price</span></td>
+                  <td>
+                    <span style="display:block">Individual</span>
+                    <span  style="font-size:10px;color:red">Standard Account</span>
+                  </td>
+                  <td>
+                      <span style="display:block">Not Available</span>
+                      <span  style="font-size:10px;color:gray">not available</span>
+                    </td>
+                    <td>
+                        <span style="font-weight:bold">MT</span>
+                        <span  style="color:red;font-weight:bold">4</span>
+                      </td>
+  
+                      <td >
+                     <span> $</span><span style="margin:5px">5,23,7653</span>
+                      </td>
+                        <td>
+                          <span style="color:darkgreen">
+                            Activated
+                          </span>
+                        </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                    </td>
+                    <td ><span  style="display:block">584365</span>
+                      <span  style="font-size:10px;color:gray">Janelli L.Troy</span></td>
+                    <td>
+                      <span style="display:block">Individual</span>
+                      <span  style="font-size:10px;color:red">Standard Account</span>
+                    </td>
+                    <td>
+                        <span style="display:block">Not Available</span>
+                        <span  style="font-size:10px;color:gray">not available</span>
+                      </td>
+                      <td>
+                          <span style="font-weight:bold">MT</span>
+                          <span  style="color:red;font-weight:bold">4</span>
+                        </td>
+    
+                        <td >
+                       <span> $</span><span style="margin:5px">8,76,47653</span>
+                        </td>
+                          <td>
+                            <span style="color:darkgreen">
+                              Activated
+                            </span>
+                          </td>
+                  </tr>
+                    
+
+                
+                  <tr>
+                      <td>
+                          <label class="container">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                      </td>
+                      <td ><span  style="display:block">584365</span>
+                        <span  style="font-size:10px;color:gray">Janelli L.Troy</span></td>
+                      <td>
+                        <span style="display:block">Individual</span>
+                        <span  style="font-size:10px;color:red">Standard Account</span>
+                      </td>
+                      <td>
+                          <span style="display:block">Not Available</span>
+                          <span  style="font-size:10px;color:gray">not available</span>
+                        </td>
+                        <td>
+                            <span style="font-weight:bold">MT</span>
+                            <span  style="color:red;font-weight:bold">4</span>
+                          </td>
+      
+                          <td >
+                         <span> $</span><span style="margin:5px">8,76,47653</span>
+                          </td>
+                            <td>
+                              <span style="color:darkgreen">
+                                Activated
+                              </span>
+                            </td>
+                    </tr>
+                   
+                    <tr>
+                        <td>
+                            <label class="container">
+                                <input type="checkbox"  checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                        </td>
+                        <td ><span  style="display:block">456325</span>
+                          <span  style="font-size:10px;color:gray">Deck P.Barth</span></td>
+                        <td>
+                          <span style="display:block">Joint</span>
+                          <span  style="font-size:10px;color:red">Standard Account</span>
+                        </td>
+                        <td>
+                            <span style="display:block">Not Available</span>
+                            <span  style="font-size:10px;color:gray">not available</span>
+                          </td>
+                          <td>
+                              <span style="font-weight:bold">MT</span>
+                              <span  style="color:red;font-weight:bold">4</span>
+                            </td>
+        
+                            <td >
+                           <span> $</span><span style="margin:5px">8,45,47653</span>
+                            </td>
+                              <td>
+                                <span style="color:darkgreen">
+                                  Activated
+                                </span>
+                              </td>
+                      </tr>
+                 
+
+                    <tr>
+                        <td>
+                            <label class="container">
+                                <input type="checkbox" checked="checked" >
+                                <span class="checkmark"></span>
+                              </label>
+                        </td>
+                        <td ><span  style="display:block">546284</span>
+                          <span  style="font-size:10px;color:gray">Avis M.Force</span></td>
+                        <td>
+                          <span style="display:block">Corporate</span>
+                          <span  style="font-size:10px;color:red">Standard Account</span>
+                        </td>
+                        <td>
+                            <span style="display:block">8,96,544</span>
+                            <span  style="font-size:10px;color:gray">Donna M.Spears</span>
+                          </td>
+                          <td>
+                              <span style="font-weight:bold">MT</span>
+                              <span  style="color:red;font-weight:bold">4</span>
+                            </td>
+        
+                            <td >
+                           <span> $</span><span style="margin:5px">9,29,45765</span>
+                            </td>
+                              <td>
+                                <span style="color:red">
+                                  Deactivated
+                                </span>
+                              </td>
+                      </tr>
+                    <!-- /////////     -->
+
+
+                    <tr>
+                        <td>
+                            <label class="container">
+                                <input type="checkbox" >
+                                <span class="checkmark"></span>
+                              </label>
+                        </td>
+                        <td ><span  style="display:block">153465</span>
+                          <span  style="font-size:10px;color:gray">Jeffere M.Force</span></td>
+                        <td>
+                          <span style="display:block">Individual</span>
+                          <span  style="font-size:10px;color:red">Standard Account</span>
+                        </td>
+                        <td>
+                            <span style="display:block">890433</span>
+                            <span  style="font-size:10px;color:gray">Mable J.Drayton</span>
+                          </td>
+                          <td>
+                              <span style="font-weight:bold">MT</span>
+                              <span  style="color:red;font-weight:bold">4</span>
+                            </td>
+        
+                            <td >
+                           <span> $</span><span style="margin:5px">5029397</span>
+                            </td>
+                              <td>
+                                <span style="color:darkgreen">
+                                  Activated
+                                </span>
+                              </td>
+                      </tr>
+                        
+                  
+         
+         
+          
+         
+          
+         
+          
+           
+          
+          </table>
+       </div>
+    
+
+  </div>  
